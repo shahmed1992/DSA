@@ -33,3 +33,44 @@ Example-2:
     f(n) = n                                f(n) = n/3
     O(f(n)) = O(n)                          O(f(n)) = O(n)
 
+Example-3:
+    for i in range(n):
+        for j in range(n):
+            print(i,j)
+    f(n) = n*n = n^2, O(f(n)) =O(n^2)
+
+Example-4:
+    low = 0
+    high = n-1
+    while low<=high:
+        mid = (low+high)/2
+        if array[mid]==value:
+            return mid
+        elif array[mid]<value:
+            low = mid+1
+        elif array[mid]> value:
+            high = mid-1
+    return -1
+
+    Complexity: O(log(n))
+
+Example-5:
+    i=0
+    while i<3*n:
+        j=10
+        while j<=50:
+            j=j+1
+        j=0
+        while j<n*n*n:
+            j = j+2
+        i=i+1
+
+    f(n) = 3n*(40 + n^3/2) = 3n/40 + 3n^4/2
+        O(f(n)) = O(n^4)
+
+Other examples:
+Finding all subsets of a set: O(2^n)
+Finding all permutations of a string: O(n!)
+Sorting using mergesort: O(nlogn)
+Iterating over all the cells in a matrix of a size n by m: O(nm)
+
