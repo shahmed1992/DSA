@@ -1,0 +1,13 @@
+Abstract Data Type(ADT):
+    1. An ADT is an abstraction of a DS which provides only the interface to which a DS must adhere to.
+    2. The Interface doesn't give any specific details about how something should be implemented or in what prog lang
+    eg: ADT is for mode of transportation to get from one point to another
+
+    ADT:                            DS(Implemenation):
+    1. List                     Dynamic Array, Linked List
+    2. Queue                    Linked List Based Queue, Array based Queue, Stack Based Queue
+    3. Map                      Tree Map, Hash Map/Hash Table
+    4. Vehicle                  Golf Cart, Bicycle, Smart Car
+
+
+
