@@ -1,0 +1,46 @@
+Agenda:
+    1. What is linked list?
+    2. Where is LL used?
+    3. Terminology
+    4. Singly vs. Doubly LL
+    5. How to insert new elements
+    6. how to remove elements
+    7. Complexity analysis
+    8. Code implementation
+
+Linked List:
+    1. LL is a sequential list of nodes that hold data which point to other nodes also containing data.
+    2. Last node will point to null
+
+Where are LL used?
+    1. Used in many list, queue & stack implementations.
+    2. Great for creating circular lists.
+    3. Can easily model real world objs such as trains.
+    4. Used in sep chaining, which is present certain hashtable implementations to deal with hashing collisions.
+    5. Often used in the implementation of adjacency lists for graphs.
+
+Terminology:
+    1. Head: The first node in a linked list
+    2. Tail: The last node in a linked list
+    3. Pointer: Ref to another node.
+    4. Node: An obj containing data and pointer(s)
+
+Singly vs doubly linked lists
+    1. single ll only holds a ref to the next node.
+    2. doubly ll holds a ref to the next and previous node.
+    3. In the impl you always maintain ref to the head and tail of ll
+
+Pros and cons:
+    Pros:
+        singly:
+            uses less mem
+            simpler impl
+        doubly:
+            can be traversed backwards
+    Cons:
+        Singly:
+            Cannot easily access prev elements
+        Double:
+            Takes 2x mem
+
+Implementation details:

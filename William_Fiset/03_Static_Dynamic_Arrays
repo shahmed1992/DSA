@@ -1,0 +1,32 @@
+Agenda:
+    1. What is an Array?
+    2. When and where is a Array used?
+    3. Complexity
+    4. Static array usage example
+    5. Dynamic Array Implementation details
+    6. Code Implementation
+
+Static Array:
+    1. A static array is a fixed length container containing n elements indexable from the range[0, n-1]
+    2. Contigous memory assignment in static array
+
+When and where is a static array used?
+    1. storing and accessing sequential data
+    2. Temp storing objects
+    3. used by IO routines as buffers
+    4. Lookup tables and inverse lookup tables
+    5. can be used to return multiple values from a function
+    6. Used in dynamic programming to cache answers to sub-problems.
+        knapsack
+
+Complexity:
+                Static Array        Dynamic Array
+Access:            O(1)                 O(1)
+Search:            O(n)                 O(n)
+Insertion:         N/A                  O(n)
+Appending:         N/A                  O(1)
+Deletion:          N/A                  O(n)
+
+Dynamic Array:
+    1. How can we implement a dynamic array?
+        One way is to use a static array
